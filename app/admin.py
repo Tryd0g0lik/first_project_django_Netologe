@@ -4,4 +4,8 @@ from django.contrib import admin
 # User: test@test.ru
 # Email test@test.ru
 # PAsword: passpass
-# admin.site.register()
+from app.models import firstModelPost
+
+# admin.site.register(firstModelPost)
+
+admin.site.register(firstModelPost)
