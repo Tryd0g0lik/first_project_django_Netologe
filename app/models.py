@@ -7,4 +7,4 @@ class firstModelPost(models.Model):
 	 DateTime_var = models.DateTimeField(auto_now_add=True)
 
 	 def __str__(self):
-		 return  self.title_var
+		 return  self.DateTime_var
