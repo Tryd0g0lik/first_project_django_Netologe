@@ -5,10 +5,19 @@
     <title>Домашняя страница</title>
 </head>
 <body>
-    <h1>Выберите раздел</h1>
+    <!-- h1>Выберите раздел</h1>
     {% for title, url in pages.items %}
         <a href="{{ url }}">{{ title }}</a>
         <br>
-    {% endfor %}
+    {% endfor %} -->
+<div class="files">
+   {% for f in file  %}
+   <ul>
+      <li>{{f}}</li>
+   </ul>
+   {%endfor%}
+   
+   
+</div>
 </body>
 </html>
